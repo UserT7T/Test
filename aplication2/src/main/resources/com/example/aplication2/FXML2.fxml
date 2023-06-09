@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="455.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.aplication2.HelloController">
+    <children>
+        <Button fx:id="btn2" layoutX="14.0" layoutY="406.0" mnemonicParsing="false" onAction="#handleButtonAction" text="Click to go to scene 1" />
+      <TextField fx:id="aTextField" layoutX="53.0" layoutY="33.0" />
+      <TextField fx:id="bTextField" layoutX="53.0" layoutY="79.0" />
+      <TextField fx:id="cTextField" layoutX="53.0" layoutY="125.0" />
+      <Label layoutX="24.0" layoutY="37.0" text="a" />
+      <Label layoutX="24.0" layoutY="83.0" text="b" />
+      <Label layoutX="24.0" layoutY="129.0" text="c" />
+      <Button layoutX="248.0" layoutY="33.0" mnemonicParsing="false" onMouseClicked="#CalcBtn" text="Calculate" />
+      <Label fx:id="resLabel" layoutX="11.0" layoutY="201.0" prefHeight="188.0" prefWidth="312.0" />
+    </children>
+</AnchorPane>
